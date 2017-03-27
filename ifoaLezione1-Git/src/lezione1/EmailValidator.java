@@ -16,9 +16,9 @@ public class EmailValidator {
 		Boolean emailMatch = match.matches();
 		
 		if(emailMatch)
-			System.out.println("L'email " + email + " è valida");
+			System.out.println("L'email \"" + email + "\" è valida");
 		else
-			System.err.println("L'email " + email + " NON è valida");
+			System.err.println("L'email \"" + email + "\" NON è valida");
 		
 		sc.close();
 	}
